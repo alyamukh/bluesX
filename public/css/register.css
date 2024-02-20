@@ -1,0 +1,156 @@
+body {
+    height: 100%;
+    overflow: hidden;
+}
+.signup {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.section1 {
+    display: flex;
+    flex-direction: column;
+}
+.decorator {
+    height: 1216px;
+    left: 0;
+    position: absolute;
+    top: -192px;
+    width: 1958px;
+}
+.section11 {
+    background-color: #e9916c;
+    border-radius: 9px 9px 9px 9px;
+    display: flex;
+    flex-direction: column;
+    margin: 200px 0 170px 6.94%;
+    padding: 48px 58px 40px;
+    position: relative;
+    width: 604px;
+}
+.big_title {
+    color: white;
+    font: 700 36px/1.22 "Inter", Helvetica, Arial, serif;
+    margin: 0 20px;
+}
+.subtitle input.input-field {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #e9916c;
+    margin-top: 40px;
+}
+
+.subtitle input.input-field::placeholder {
+    color: #e9916c;
+    opacity: 0.7;
+}
+
+.subtitle input.input-field:focus {
+    border: 1px solid #e9916c;
+    box-shadow: 0 0 5px rgba(233, 145, 108, 0.5);
+}
+
+.subtitle1 input.input-field {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #e9916c;
+    margin-top: 15px;
+}
+
+.subtitle1 input.input-field::placeholder {
+    color: #e9916c;
+    opacity: 0.7;
+}
+
+.subtitle1 input.input-field:focus {
+    border: 1px solid #e9916c;
+    box-shadow: 0 0 5px rgba(233, 145, 108, 0.5);
+}
+
+.subtitle2 input.input-field {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #e9916c;
+    margin-top: 15px;
+}
+
+.subtitle2 input.input-field::placeholder {
+    color: #e9916c;
+    opacity: 0.7;
+}
+
+.subtitle2 input.input-field:focus {
+    border: 1px solid #e9916c;
+    box-shadow: 0 0 5px rgba(233, 145, 108, 0.5);
+}
+.subtitle3 input.input-field {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #e9916c;
+    margin-top: 15px;
+    margin-bottom: 80px;
+}
+
+.subtitle3 input.input-field::placeholder {
+    color: #e9916c;
+    opacity: 0.7;
+}
+
+.subtitle3 input.input-field:focus {
+    border: 1px solid #e9916c;
+    box-shadow: 0 0 5px rgba(233, 145, 108, 0.5);
+}
+
+.highlight {
+    border-radius: 15px;
+    bottom: 20px;
+    color: #e9916c;
+    display: flex;
+    font: 600 16px/1.5 "Poppins", Helvetica, Arial, serif;
+    height: 42px;
+    justify-content: center;
+    padding-bottom: -8px;
+    padding-top: 8px;
+    position: absolute;
+    right: 45px;
+    text-align: center;
+    width: 213px;
+    background-color: white;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+    margin-top: 20px;
+    border: none;
+}
+
+.highlight:hover {
+    background-color: #e9916c;
+    color: white;
+    border: 2px solid #fff;
+}
+
+.warning-message {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
